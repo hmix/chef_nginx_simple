@@ -1,0 +1,7 @@
+name 'nginx_simple'
+maintainer 'Michael Haas'
+maintainer_email 'hmi@linux.com'
+license 'apachev2'
+description 'Installs/Configures nginx_simple'
+long_description 'Installs/Configures nginx_simple'
+version '0.1.0'
