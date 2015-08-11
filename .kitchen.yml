@@ -21,9 +21,8 @@ platforms:
 
 suites:
   - name: default
-    encrypted_data_bag_secret_key_path: "test/integration/default/encrypted_data_bag_secret"
     data_bags_path: "test/integration/default/data_bags"
+    encrypted_data_bag_secret_key_path: "test/integration/default/encrypted_data_bag_secret"
     run_list:
       - recipe[nginx_simple::server]
-    attributes:
     attributes:
